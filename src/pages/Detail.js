@@ -1,30 +1,18 @@
 import React from 'react'
-import { useState } from 'react'
+import { useCounter } from '../hooks/useCounter'
 
-function denemeiki() {
-  let number = 10
-  let [data, setData] = useState(100)
-  const setNumber = () => {
-    setData(data + 1)
-  }
-
-  const showValues = () => {
-    console.log("Number: ", number);
-    console.log("Data: ", data);
-  }
-
-  let sentence = "I learn useState"
-  let [newData, setStringData] = useState("I will practice useState");
-  const setWord = () => {
-    setStringData(newData.replace(
-      "practice", `more practice`
-    ))
-  }
-
-  const showStringValues = () => {
-    console.log("Sentence: ", sentence);
-    console.log("New Data: ", newData);
-  }
+export const Detail = () => {
+  const {
+    data,
+    number,
+    setNumber,
+    showValues,
+    setData,
+    newData,
+    sentence,
+    setWord, showStringValues,
+    setStringData
+  } = useCounter()
 
 
   return (
@@ -55,6 +43,5 @@ function denemeiki() {
         <button onClick={() => setStringData("Adolfha")}>String Data</button>
       </div>
     </div>
-)}
-
-export default denemeiki;
+  )
+}

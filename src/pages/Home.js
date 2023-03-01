@@ -1,11 +1,9 @@
 import React from 'react'
 
-function Home() {
+export const Home = () => {
   return (
     <div className='container'>
-      anasayfa
+      Home
     </div>
   )
 }
-
-export default Home

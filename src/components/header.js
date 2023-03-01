@@ -4,12 +4,17 @@ import { Link } from 'react-router-dom'
 function Header() {
   return (
     <div className='container'>
-      <Link to="/denemeiki">
-        useState
-      </Link>
-      <Link to="/deneme">
-        useEffect
-      </Link>
+      <ul>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/detail">Topics</Link>
+        </li>
+      </ul>
     </div>
   )
 }
