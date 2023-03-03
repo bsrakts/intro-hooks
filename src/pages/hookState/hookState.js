@@ -1,7 +1,7 @@
 import React from 'react'
-import { useCounter } from '../hooks/useCounter'
+import { useCounter } from '../../hooks/useCounter'
 
-export const Detail = () => {
+export const HookState = () => {
   const {
     data,
     number,

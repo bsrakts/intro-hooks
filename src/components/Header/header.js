@@ -1,18 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './header.css';
 
 function Header() {
   return (
-    <div className='container'>
+    <div className='header'>
+      <h3>My Hooks Workspace</h3>
       <ul>
         <li>
           <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/detail">Topics</Link>
         </li>
       </ul>
     </div>

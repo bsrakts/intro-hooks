@@ -1,0 +1,7 @@
+.home ul{
+  @apply w-full flex my-4 mx-36 flex-wrap 
+}
+
+.home li{
+  @apply px-16 py-4 hover:bg-violet-600 hover:drop-shadow-2xl
+}

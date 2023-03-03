@@ -1,0 +1,12 @@
+
+.header{
+  @apply flex flex-row justify-between text-white px-32 border-b border-blue-600
+}
+
+h3 {
+  @apply px-4 py-4 text-xl font-bold text-[#ff00d3] drop-shadow-xl
+}
+
+.header li {
+  @apply px-4 pt-3 mt-2 hover:bg-violet-600 hover:drop-shadow-2xl
+}
