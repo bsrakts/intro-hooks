@@ -7,13 +7,10 @@ export const Home = () => {
     <div className='home container-fluid w-full flex justify-center'>
       <ul>
         <li>
-          <Link to="/detail">useState</Link>
+          <Link to="/hookstate">useState</Link>
         </li>
         <li>
-          <Link to="/about">useEffect</Link>
-        </li>
-        <li>
-          <Link to="/about">useEffect</Link>
+          <Link to="/hookeffect">useEffect</Link>
         </li>
       </ul>
     </div>

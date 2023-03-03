@@ -1,0 +1,7 @@
+.hookEffect{
+  @apply mt-8
+}
+
+.hookEffect input{
+  @apply text-black text-lg ml-4 border-2 border-violet-500 p-2
+}

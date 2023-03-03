@@ -13,8 +13,8 @@ function App() {
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/about" element={<HookEffect />} />
-          <Route path="/detail" element={<HookState />} />
+          <Route path="/hookstate" element={<HookState />} />
+          <Route path="/hookeffect" element={<HookEffect />} />
         </Routes>
       </Router>
     </div>
