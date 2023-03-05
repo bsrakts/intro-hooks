@@ -1,5 +1,5 @@
 import React from 'react'
-import { useCounter } from '../../hooks/useCounter'
+import { useHookState } from '../../hooks/useHookState'
 
 export const HookState = () => {
   const {
@@ -12,7 +12,7 @@ export const HookState = () => {
     sentence,
     setWord, showStringValues,
     setStringData
-  } = useCounter()
+  } = useHookState()
 
 
   return (

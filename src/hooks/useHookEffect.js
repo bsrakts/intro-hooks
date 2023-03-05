@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export const useCounterv2 = () => {
+export const useHookEffect = () => {
   const [data, setData] = useState("")
   const [value,setValue]= useState("")
   useEffect(() =>

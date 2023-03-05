@@ -1,5 +1,5 @@
 import React from 'react'
-import { useCounterv2 } from '../../hooks/useCounterv2'
+import { useHookEffect } from '../../hooks/useHookEffect'
 import './hookEffect.css'
 
 export const HookEffect = () => {
@@ -8,7 +8,7 @@ export const HookEffect = () => {
     setData,
     value,
     setValue
-  } = useCounterv2()
+  } = useHookEffect()
   return (
     <div className='hookEffect'>
       <h3 className='text-2xl'>

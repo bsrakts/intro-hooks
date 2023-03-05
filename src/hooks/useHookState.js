@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const useCounter = () => {
+export const useHookState = () => {
     const [data, setData] = useState(100);
     const [newData, setStringData] = useState("I will practice useState");
 

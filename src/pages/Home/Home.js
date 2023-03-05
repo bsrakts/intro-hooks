@@ -12,6 +12,12 @@ export const Home = () => {
         <li>
           <Link to="/hookeffect">useEffect</Link>
         </li>
+        <li>
+          <Link to="/hookmemo">useMemo</Link>
+        </li>
+        <li>
+          <Link to="/hookref">useRef</Link>
+        </li>
       </ul>
     </div>
   )
